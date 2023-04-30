@@ -1,0 +1,236 @@
+*{
+    background-color: black;
+    color:lightgrey;
+    box-sizing: border-box;
+  }
+.header div{
+    display: flex;
+    background-color:block
+}
+.header h2{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.header h1{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.header h1:hover a {
+   text-decoration: none;
+   color: #ff00ff;
+}
+.svgimages{
+    padding-top: 20px;
+    padding-left: 200px;
+}
+.svg{
+    padding: 20px 20px;
+    text-decoration: none;
+}
+.navbar{
+    padding-top: 20px;
+    padding-left: 150px;
+}
+.navbar ul li {
+    float: left;
+    position: relative;
+    list-style-type: none;
+  }
+  .navbar ul li:hover {
+    background: rgba(117, 118, 114, 0.67);
+  }
+  .navbar ul li a {
+    display: block;
+    padding: 10px 30px;
+    color: #efe9e9;
+    text-decoration: none;
+    background-color:black;
+    font-family: sans-serif; 
+  }
+  .navbar ul li:hover a {
+    color:yellow;
+    text-transform: uppercase;
+  }
+  .navbar ul li:hover > ul {
+    display: block;
+  }
+  .navbar ul:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+.navbar ul ul {
+    display: none;
+    background: #5f6975;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+  }
+  .navbar ul ul li {
+    float: none;
+    position: relative;
+  }
+  .navbar ul ul li a {
+    padding: 15px 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  .navbar ul ul li a:hover {
+    background: rgba(19, 20, 123, 0.67);
+  }
+.receipeheading{
+    text-align: center;
+    padding-top: 100px;
+}
+.receipeheading h1:hover{
+    color: #ff00ff;
+}
+.header h2:hover{
+    .l1{
+        transform: rotate(6deg);
+        color: red;
+     }
+     .l2{
+         transform: rotate(12deg);
+         color: white;
+      }
+      .l3{
+         transform: rotate(24deg);
+         color: red;
+      }
+      .l4{
+         transform: rotate(6deg);
+         color: white;
+      }
+      .l5{
+         transform: rotate(6deg);
+         color: red;
+      }
+      .l6{
+         transform: rotate(6deg);
+         color:white;
+      }
+      .l7{
+         transform: rotate(6deg);
+         color: red;
+      }
+      .l8{
+         transform: rotate(6deg);
+         color: white;
+      }
+      .l9{
+         transform: rotate(6deg);
+         color: red;
+      }
+      .l10{
+          transform: rotate(6deg);
+          color: white;
+       }
+       .l11{
+         transform: rotate(6deg);
+         color: red;
+      }
+      .l12{
+          transform: rotate(6deg);
+          color: white;
+       }
+       .l13{
+         transform: rotate(6deg);
+         color: red;
+      }
+      .l14{
+          transform: rotate(6deg);
+          color: white;
+       }
+       .l15{
+         transform: rotate(6deg);
+         color: red;
+      }
+    }
+    .receipe{
+        display: flex;
+        font-weight: 200;
+        font-size: larger;
+    }
+    .receipe img{
+        padding: 20px;
+    }
+    .receipe img:hover{
+        
+        transform: scale(0.8);
+    }
+    .preparationinstruction div{
+display:block;
+padding: 20px 20px;
+text-align: justify;
+    }
+    .stepstopreparation  {
+        display: flex;
+    }
+    .nutrition{
+        display: flexbox;
+        padding: 20px;
+    }
+    .nutrition div{
+      padding: 20px 20px;
+      text-align: justify;
+      font-weight: 200;
+      font-size: larger;
+    }
+    .cusinedetails div{
+    padding: 20px 60px;
+    text-align: justify;
+      font-weight: 200;
+      font-size: larger;
+      padding-top: 30px;
+    }
+    fieldset{
+      width: fit-content;
+    }
+.ingredients{
+  display: flex;
+}
+.step1 img{
+  width: 150px;
+  height: 150px;
+  border: 4px solid rgb(20, 20, 21);
+  border-radius: 50px;
+}
+.stepsimages{
+  display: flex;
+  width: fit-content;
+  height: 300px;
+  background-color:black;
+  flex-wrap: wrap;
+  align-content:flex-start;
+  align-items: center;
+  padding-left: 10px;
+ 
+  margin-left: 150px;
+  
+
+}
+.tempering{
+  display: flex;
+  padding-left: 10px;
+  height: 300px;
+  margin-left: 150px;
+  padding-top: 80px;
+ 
+}
+.preparationvideo{
+
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin-left:500px;
+  padding-top: 20px;
+}
+  footer{
+    text-align: center;
+    font-weight: 400;
+    font-size: larger;
+    color: red;
+    padding-top: 20px;
+  }
+
